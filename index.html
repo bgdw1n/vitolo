@@ -35,6 +35,13 @@
     background-attachment: fixed; /* Keeps the background in place during scrolling */
   }
 
+  .pull-quote .container { top:12vh }
+
+  @media (max-width: 576px) {
+    .pull-quote .container {
+      top: 1vh;
+    }
+  }
 
   .bg-body2 { background-color: rgb(245 245 245 / 65%) }
   .bg-sand { background-color: rgb(245 245 245 / 75%) }
@@ -96,8 +103,8 @@
   </div>
 </nav>
 
-<div class="container-fluid p-4" style="height:90vh">
-  <div class="container px-0 position-relative" style="top:12vh">
+<div class="container-fluid pull-quote p-2 p-sm-4" style="height:90vh">
+  <div class="container px-0 position-relative">
     <div class="row pt-4 px-0">
       <div class="col-9 mx-auto text-center px-0">
           <h1 class="main mb-0">We provide customized business tax solutions, dedicated to maximizing tax benefits and supporting long-term success as your trusted partner.</h1>
