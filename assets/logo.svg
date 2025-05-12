@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 393 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-50.8752,-21.478)">
+        <g transform="matrix(0.595928,0,0,0.595928,-14.3148,-470.039)">
+            <g transform="matrix(2.65225,0,0,2.65225,-228.004,333.529)">
+                <text x="177.855px" y="206.603px" style="font-family:'AvenirNextCondensed-DemiBold', 'Avenir Next Condensed', sans-serif;font-weight:600;font-stretch:condensed;font-size:28.278px;fill:rgb(49,51,55);">Vitolo &amp; <tspan x="267.354px 281.663px 291.984px 302.475px " y="206.603px 206.603px 206.603px 206.603px ">Asso</tspan>ciates</text>
+            </g>
+            <g transform="matrix(1,0,0,1,243.56,905.628)">
+                <text x="9.467px" y="37.8px" style="font-family:'AvenirNextCondensed-Medium', 'Avenir Next Condensed', sans-serif;font-weight:500;font-stretch:condensed;font-size:50px;fill:rgb(34,50,68);fill-opacity:0.85;">C<tspan x="33.167px 55.117px " y="37.8px 37.8px ">er</tspan>tiﬁed P<tspan x="196.267px 220.417px " y="37.8px 37.8px ">ub</tspan>lic</text>
+                <text x="293.417px" y="37.8px" style="font-family:'AvenirNextCondensed-Medium', 'Avenir Next Condensed', sans-serif;font-weight:500;font-stretch:condensed;font-size:50px;fill:rgb(31,44,63);fill-opacity:0.85;">Accountants</text>
+            </g>
+            <g transform="matrix(0.996194,0,0,0.996194,-1316.46,397.555)">
+                <g transform="matrix(0.792733,0,0,1.05567,481.693,-521.046)">
+                    <path d="M1248.63,958.29L1241.56,943.501L1203.16,943.501L1231.59,1002.61" style="fill:none;stroke:rgb(49,51,55);stroke-width:8.96px;"/>
+                </g>
+                <g transform="matrix(1.15269,0,0.276183,-1.32724,-171.047,1774.51)">
+                    <path d="M1245.65,972.656L1221.6,931.187" style="fill:none;stroke:rgb(196,178,139);stroke-width:6.07px;"/>
+                </g>
+                <g transform="matrix(1.15269,0,0.276183,-1.32724,-171.047,1774.51)">
+                    <path d="M1190.55,931.187L1231.59,1002.61" style="fill:none;stroke:rgb(49,51,55);stroke-width:6.07px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
