@@ -24,6 +24,10 @@
   }
 
   #scrollDiv { background-color:rgba(255,255,255,.8); }
+
+  .navbar-brand img {
+    max-height: 60px;
+  } 
   
   a { color: #183555 !important; }
   
@@ -96,9 +100,9 @@
   <body class="bg-body">
 <main>
 <nav class="navbar navbar-expand-md bg-white">
-  <div class="container d-flex align-items-center">
-    <a href="/" class="navbar-brand">
-      <img src="assets/logo.svg" alt="Vitolo & Associates LLC Logo" width="225">
+  <div class="container">
+    <a href="/" class="navbar-brand d-flex align-items-center">
+      <img src="assets/logo.svg" alt="Vitolo &amp; Associates LLC Logo" width="225" height="auto" class="img-fluid">
     </a>
     <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
       aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -122,7 +126,6 @@
     </div>
   </div>
 </nav>
-
 <div class="container-fluid pull-quote p-2 p-sm-4">
   <div class="container px-0 position-relative">
     <div class="row pt-4 px-0">
