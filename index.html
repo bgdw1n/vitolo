@@ -35,11 +35,21 @@
     background-attachment: fixed; /* Keeps the background in place during scrolling */
   }
 
+  .pull-quote { height:90vh }
   .pull-quote .container { top:12vh }
 
-  @media (max-width: 576px) {
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .pull-quote { height:55vh; }
     .pull-quote .container {
-      top: 1vh;
+      top: 16vh;
+    }
+  }
+
+  @media (max-width: 576px) {
+
+    .pull-quote { height:48vh; }
+    .pull-quote .container {
+      top: 4vh;
     }
   }
 
@@ -103,7 +113,7 @@
   </div>
 </nav>
 
-<div class="container-fluid pull-quote p-2 p-sm-4" style="height:90vh">
+<div class="container-fluid pull-quote p-2 p-sm-4">
   <div class="container px-0 position-relative">
     <div class="row pt-4 px-0">
       <div class="col-9 mx-auto text-center px-0">
@@ -115,7 +125,7 @@
 <div class="container-fluid bg-body2 sticky-bottom py-4">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-7 mx-auto text-center">
+      <div class="col-12 col-lg-7 mx-auto text-center">
           <h2 class="h4">Access your tax return anytime by downloading a copy or securely submitting a file/form through our platform.</h3>
           <a href="https://onvio.us/clientcenter" class="btn btn-primary btn-md mt-2" role="button" target="_blank">Login to Our Client Portal</a>
       </div>
@@ -123,57 +133,57 @@
   </div>
 </div>
 <div class="container-fluid bg-sand">
-  <div class="container px-2 px-sm-5 py-5">
-  <h1 class="h2 mb-4">Our Services</h1>
-  <div class="row gx-4">
-    <div class="col-12 col-md-4 me-2 mb-3 mb-md-0">
-      <div class="card border-0">
-        <div class="card-body rounded p-4">
-          <h3 class="h5">Preparation &amp; Filing</h3>
-          <p>Federal, State, &amp; Local Tax Returns for Businesses</p>
+  <div class="container px-2 px-md-0 px-lg-5 py-5">
+    <h1 class="h2 mb-4 text-center">Our Services</h1>
+    <div class="row gx-4 justify-content-center">
+      <div class="col-12 col-md-4 mb-3 mb-md-0">
+        <div class="card border-0 h-100">
+          <div class="card-body rounded p-4 text-center text-md-start">
+            <h3 class="h5">Preparation &amp; Filing</h3>
+            <p>Federal, State, &amp; Local Tax Returns for Businesses</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-12 col-md-4 mb-3 mb-md-0">
-      <div class="card border-0">
-        <div class="card-body rounded p-4">
-          <h3 class="h5">Planning &amp; Consulting</h3>
-          <p>Providing Strategies to Minimize Tax Liabilities &amp; Optimize Deductions.</p>
+      <div class="col-12 col-md-4 mb-3 mb-md-0">
+        <div class="card border-0 h-100">
+          <div class="card-body rounded p-4 text-center text-md-start">
+            <h3 class="h5">Planning &amp; Consulting</h3>
+            <p>Providing Strategies to Minimize Tax Liabilities &amp; Optimize Deductions.</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-12 col-md-4 mb-3 mb-md-0">
-      <div class="card border-0">
-        <div class="card-body rounded p-4">
-          <h3 class="h5">Compliance &amp; Reporting</h3>
-          <p>Ensuring Ongoing Compliance with Tax Laws &amp; Regulations</p>    
+      <div class="col-12 col-md-4 mb-3 mb-md-0">
+        <div class="card border-0 h-100">
+          <div class="card-body rounded p-4 text-center text-md-start">
+            <h3 class="h5">Compliance &amp; Reporting</h3>
+            <p>Ensuring Ongoing Compliance with Tax Laws &amp; Regulations</p>    
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-</div>
 </main>
 <footer class="container-fluid py-4">
   <div class="container px-5">
     <div class="row d-flex align-items-start">
-      <div class="col">
-        <div class="mx-auto">
+      <div class="col-12 col-sm-4">
+        <div class="mx-auto text-center text-md-start mb-3 mb-md-0">
           <img src="assets/logo.svg" alt="Vitolo & Associates LLC Logo" width="200" class="d-none">
           <h5>Vitolo & Associates LLC</h5>
           <div>Certified Public Accountants</div>
         </div>
       </div>
-      <div class="col d-flex justify-content-center">
+      <div class="col-12 col-sm-4 d-flex justify-content-center text-center text-md-start mb-3 mb-md-0">
         <address>
           2130 Highway 35<br/>
           Building B - Suite 224<br/>
           Sea Girt, NJ 08750<br/>
         </address>
       </div>
-      <div class="col d-flex justify-content-end">
+      <div class="col-12 col-sm-4 d-flex justify-content-center justify-sm-end text-center text-sm-start">
         <address>
-          Phone: (732) 974-7211<br/>
+          Phone: (732) 974-7211<br>
           Fax: (732) 974-7219
         </address>
       </div>
